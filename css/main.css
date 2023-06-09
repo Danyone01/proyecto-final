@@ -73,6 +73,28 @@
   font-weight: bold;
 }
 
+@media (min-width: 768px) {
+  .header__container-navbar {
+    display: flex;
+    align-items: center;
+  }
+  .header__container-navbar li {
+    margin: 0 15px;
+  }
+  .header__container-navbar li a {
+    color: white;
+    font-weight: bold;
+  }
+  .header__container-navbar li a:hover {
+    color: black;
+  }
+  .header__container-navbar-mobile {
+    display: none;
+  }
+  .planes__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .footer {
   background-color: black;
   color: #e2e8f0;
