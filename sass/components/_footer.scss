@@ -1,0 +1,76 @@
+// Footer
+.footer {
+    background-color: black;
+    color: #e2e8f0;
+    padding: 60px 20px;
+
+    &__container  {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+      }
+  }
+  
+  @media (min-width: $bpMedium) {
+    .footer__container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .footer__container h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .footer__container h3 {
+    text-align: center;
+  }
+  .footer__container-list li {
+    margin: 10px 0;
+  }
+  .footer__container-list li a {
+    color: #e2e8f0;
+    transition: all 0.3s;
+  }
+  .footer__container-list li a:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .footer__container-rrss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .footer__container-rrss .facebook {
+    color: #e2e8f0;
+    font-size: 30px;
+    transition: all 0.3s;
+  }
+  .footer__container-rrss .facebook:hover {
+    color:  $fontRed;
+  }
+  .footer__container-rrss .tiktok {
+    color: #e2e8f0;
+    font-size: 30px;
+    transition: all 0.3s;
+  }
+  .footer__container-rrss .tiktok:hover {
+    color: $fontRed;
+  }
+  .footer__container-rrss .instagram {
+    color: #e2e8f0;
+    font-size: 30px;
+    transition: all 0.3s;
+  }
+  .footer__container-rrss .instagram:hover {
+    color: $fontRed;
+  }
+  .footer__copy {
+    margin-top: 40px;
+    text-align: center;
+    color: #94a3b8;
+  }

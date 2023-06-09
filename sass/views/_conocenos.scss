@@ -1,0 +1,46 @@
+  .contact{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 100px;
+  }
+  .contact__logo  {
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+    color: #1A1A1A;
+  }
+  .contact__container-form img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 200%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+
+  .conocenos__container-info{
+    display: grid;
+    grid-template-columns: 280px;
+    justify-items: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+  .conocenos__container-info p  {
+    color: #1A1A1A;
+    border-width: 80px;
+    font-size: 20px;
+  }
+
+  @media(min-width:576px)  {
+    body  {
+      padding: 0 5px;
+    }
+    .contact__container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .contact__container > * {
+      padding: 2em;
+    }
+  }

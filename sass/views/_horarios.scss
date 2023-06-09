@@ -1,0 +1,31 @@
+.horarios__container{
+    width: 100%;
+    max-width: 1140px;
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.horarios__header  {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    color: black;
+    font-size: 35px;
+    line-height: 36px;
+    text-align: center;
+}
+.rows   {
+    margin-top: 15px;
+}
+
+.black-label  {
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    background-color: black;
+    color: wheat;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+}

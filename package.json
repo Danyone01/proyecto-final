@@ -1,0 +1,14 @@
+{
+  "name": "tercera-tarea",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de practica de HTML y CSS del curso **Desarrollo web**",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
+  },
+  "author": "Dany Herrera",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
